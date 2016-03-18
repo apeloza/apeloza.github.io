@@ -93,7 +93,7 @@ color: #FFF;
 --------------------------*/
 
 
-@media (max-width: 600px) {
+@media screen (max-width: 600px) {
 	img {
 		display: none;
 	}
