@@ -17,7 +17,6 @@ img{
 	display:block;
 	max-width: 100%;
 	margin-bottom:10px;
-	padding-top:20px;
 }
 
 /* -----------------------------------
@@ -27,6 +26,7 @@ img{
 .container {
 	width:900px;
 	margin:0 auto;
+	padding-top:22px;
 }
 
 .col-1-3, .col-2-3{
@@ -58,7 +58,7 @@ img{
 h1, h2, h3,h4{
 
 	font-weight:300;
-	color:#fff;
+	color:#FFF;
 }
 
 h1{
@@ -78,3 +78,33 @@ h3{
 }
 
 
+.bullet-point{
+color:#BDBDBD;
+-webkit-transition: color 0.7s ease-in;
+transition: color 0.7s ease-in;
+}
+
+.bullet-point:hover{
+color: #FFF;
+}
+
+/*---------------------------
+			MEDIA QUERY
+--------------------------*/
+
+
+@media (max-width: 600px) {
+	img {
+		display: none;
+	}
+	.col-1-3, .col-2-3 {
+		float: none;
+		margin: auto;
+		width: 100%;
+		border: none;
+		text-align: center;
+	}
+	.container {
+		width: 100%;
+	}
+}
