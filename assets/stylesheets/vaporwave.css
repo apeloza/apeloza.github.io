@@ -17,6 +17,10 @@ body {
 .bg3{
 	background-image:url(../images/creepy.gif);
 }
+.bg4{
+	background-image:url(../images/rastley.gif);
+	background-size: cover;
+}
 .rainbow {
 -webkit-animation:rainbow 1s infinite;
 -ms-animation:rainbow 1s infinite;
